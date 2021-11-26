@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1D1878D2275106A60046D155 /* CodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1878C9275106A60046D155 /* CodingChallenge.framework */; };
-		1D1878D7275106A60046D155 /* CodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878D6275106A60046D155 /* CodingChallengeTests.swift */; };
 		1D1878D8275106A60046D155 /* CodingChallenge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1878CC275106A60046D155 /* CodingChallenge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1878E2275106C60046D155 /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878E1275106C60046D155 /* Challenge1.swift */; };
+		1D1878E4275107160046D155 /* Challenge1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878E3275107160046D155 /* Challenge1Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +27,8 @@
 		1D1878C9275106A60046D155 /* CodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D1878CC275106A60046D155 /* CodingChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodingChallenge.h; sourceTree = "<group>"; };
 		1D1878D1275106A60046D155 /* CodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D1878D6275106A60046D155 /* CodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengeTests.swift; sourceTree = "<group>"; };
+		1D1878E1275106C60046D155 /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
+		1D1878E3275107160046D155 /* Challenge1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				1D1878CC275106A60046D155 /* CodingChallenge.h */,
+				1D1878E1275106C60046D155 /* Challenge1.swift */,
 			);
 			path = CodingChallenge;
 			sourceTree = "<group>";
@@ -77,7 +80,7 @@
 		1D1878D5275106A60046D155 /* CodingChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D1878D6275106A60046D155 /* CodingChallengeTests.swift */,
+				1D1878E3275107160046D155 /* Challenge1Tests.swift */,
 			);
 			path = CodingChallengeTests;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				TargetAttributes = {
 					1D1878C8275106A60046D155 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					1D1878D0275106A60046D155 = {
 						CreatedOnToolsVersion = 13.1;
@@ -191,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1878E2275106C60046D155 /* Challenge1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1878D7275106A60046D155 /* CodingChallengeTests.swift in Sources */,
+				1D1878E4275107160046D155 /* Challenge1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +342,7 @@
 		1D1878DC275106A60046D155 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -357,6 +363,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -364,6 +371,7 @@
 		1D1878DD275106A60046D155 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -391,6 +399,7 @@
 		1D1878DF275106A60046D155 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -411,6 +420,7 @@
 		1D1878E0275106A60046D155 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
