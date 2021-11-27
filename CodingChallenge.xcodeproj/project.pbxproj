@@ -22,6 +22,10 @@
 		1D1878F82751C7360046D155 /* Challenge6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878F72751C7360046D155 /* Challenge6Tests.swift */; };
 		1D1878FA275202F50046D155 /* Challenge7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878F9275202F50046D155 /* Challenge7.swift */; };
 		1D1878FC27522D420046D155 /* Challenge7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878FB27522D420046D155 /* Challenge7Tests.swift */; };
+		1D1878FE27524BAE0046D155 /* Challenge8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878FD27524BAE0046D155 /* Challenge8.swift */; };
+		1D18790027524C300046D155 /* Challenge8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1878FF27524C300046D155 /* Challenge8Tests.swift */; };
+		1D18790227524DE70046D155 /* Challenge9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D18790127524DE70046D155 /* Challenge9.swift */; };
+		1D6E925A27524FB5009653C8 /* Challenge9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E925927524FB5009653C8 /* Challenge9Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		1D1878F72751C7360046D155 /* Challenge6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge6Tests.swift; sourceTree = "<group>"; };
 		1D1878F9275202F50046D155 /* Challenge7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge7.swift; sourceTree = "<group>"; };
 		1D1878FB27522D420046D155 /* Challenge7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge7Tests.swift; sourceTree = "<group>"; };
+		1D1878FD27524BAE0046D155 /* Challenge8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge8.swift; sourceTree = "<group>"; };
+		1D1878FF27524C300046D155 /* Challenge8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge8Tests.swift; sourceTree = "<group>"; };
+		1D18790127524DE70046D155 /* Challenge9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge9.swift; sourceTree = "<group>"; };
+		1D6E925927524FB5009653C8 /* Challenge9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge9Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,8 @@
 				1D1878F12751B6D40046D155 /* Challenge5.swift */,
 				1D1878F52751C6F50046D155 /* Challenge6.swift */,
 				1D1878F9275202F50046D155 /* Challenge7.swift */,
+				1D1878FD27524BAE0046D155 /* Challenge8.swift */,
+				1D18790127524DE70046D155 /* Challenge9.swift */,
 			);
 			path = CodingChallenge;
 			sourceTree = "<group>";
@@ -114,6 +124,8 @@
 				1D1878F32751BEC30046D155 /* Challenge5Tests.swift */,
 				1D1878F72751C7360046D155 /* Challenge6Tests.swift */,
 				1D1878FB27522D420046D155 /* Challenge7Tests.swift */,
+				1D1878FF27524C300046D155 /* Challenge8Tests.swift */,
+				1D6E925927524FB5009653C8 /* Challenge9Tests.swift */,
 			);
 			path = CodingChallengeTests;
 			sourceTree = "<group>";
@@ -233,6 +245,8 @@
 				1D1878EE275194360046D155 /* Challenge4.swift in Sources */,
 				1D1878F22751B6D40046D155 /* Challenge5.swift in Sources */,
 				1D1878FA275202F50046D155 /* Challenge7.swift in Sources */,
+				1D18790227524DE70046D155 /* Challenge9.swift in Sources */,
+				1D1878FE27524BAE0046D155 /* Challenge8.swift in Sources */,
 				1D1878E2275106C60046D155 /* Challenge1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,9 +258,11 @@
 				1D1878F82751C7360046D155 /* Challenge6Tests.swift in Sources */,
 				1D1878E8275110AC0046D155 /* Challenge2Tests.swift in Sources */,
 				1D1878EC275112F20046D155 /* Challenge3Tests.swift in Sources */,
+				1D6E925A27524FB5009653C8 /* Challenge9Tests.swift in Sources */,
 				1D1878F0275194FD0046D155 /* Challenge4Tests.swift in Sources */,
 				1D1878E4275107160046D155 /* Challenge1Tests.swift in Sources */,
 				1D1878FC27522D420046D155 /* Challenge7Tests.swift in Sources */,
+				1D18790027524C300046D155 /* Challenge8Tests.swift in Sources */,
 				1D1878F42751BEC30046D155 /* Challenge5Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
